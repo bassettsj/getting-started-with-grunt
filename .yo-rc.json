@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Getting started with Grunt for better frontend ops",
+    "packageVersion": "0.0.1",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "bassettsj",
+    "githubRepository": "getting-started-with-grunt"
+  }
+}
