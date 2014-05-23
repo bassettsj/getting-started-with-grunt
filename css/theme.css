@@ -25,7 +25,7 @@ body {
 
 .reveal {
   font-family: "Open Sans", sans-serif;
-  font-size: 34px;
+  font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
   color: #eeeeee; }
@@ -145,3 +145,9 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #13daec; }
+
+.reveal section:first-child img[src*="grunt-logo"] {
+  background: none;
+  border: none;
+  box-shadow: none;
+  max-height: 300px; }

@@ -14,25 +14,25 @@ module.exports = (grunt) ->
             'css/*.css'
         ]
 
-        index:
-          files: [
-            'templates/_index.html'
-            'templates/_section.html'
-            'slides/list.json'
-          ]
-          tasks: ['buildIndex']
+      index:
+        files: [
+          'templates/_index.html'
+          'templates/_section.html'
+          'slides/list.json'
+        ]
+        tasks: ['buildIndex']
 
-        coffeelint:
-          files: ['Gruntfile.coffee']
-          tasks: ['coffeelint']
+      coffeelint:
+        files: ['Gruntfile.coffee']
+        tasks: ['coffeelint']
 
-        jshint:
-          files: ['js/*.js']
-          tasks: ['jshint']
+      jshint:
+        files: ['js/*.js']
+        tasks: ['jshint']
 
-        sass:
-          files: ['css/source/theme.scss']
-          tasks: ['sass']
+      sass:
+        files: ['css/source/theme.scss']
+        tasks: ['sass']
 
     sass:
       theme:

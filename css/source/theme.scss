@@ -58,3 +58,11 @@ $mainFontSize: 36px;
 
 // See ../../bower_components/reveal.js/css/theme/README.md
 // for further explanations on how reveal.js themes work.
+
+
+.reveal section:first-child img[src*="grunt-logo"]{
+  background: none;
+  border: none;
+  box-shadow: none;
+  max-height: 300px;
+}
