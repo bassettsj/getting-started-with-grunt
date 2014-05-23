@@ -1,6 +1,8 @@
+Getting started with Grunt
+==================================================
+_for better frontend ops_
 
-# Getting started with Grunt for better frontend ops
-
+note:
 From the terminal, pop in:
 
   ```yo reveal:slide "Slide Title"```

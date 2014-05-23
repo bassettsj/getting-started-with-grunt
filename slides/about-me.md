@@ -1,5 +1,5 @@
 
- ## About Me
+## About Me ##
 
 > Front end web developer at Kalamuna LLC in Oakland CA.
 
