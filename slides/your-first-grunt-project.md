@@ -27,17 +27,47 @@ _or_ Download the [binary installer](http://nodejs.com)
 
 ### `Package.json` ###
 
+- Like the module.info file, but for NPM
 - Node Package Management delivers the tools
-- `$ npm init`
 
+note:
+
+- Format that node.js and NPM want
+- Lists the dependencies
+  - Similar to a module
+  - Adds functionality to the base system
+
+--
+
+### Use the CLI Utility
+
+```sh
+
+$ cd my-awesome-theme
+$ npm init
+
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sane defaults.
+...
+Press ^C at any time to quit.
+name: (my-awesome-theme)
+
+```
+
+note:
+Nice utility to build the package.json
+
+--
+
+### What is this look like
+
+Simplest version.
 ```json
 {
   "name": "My Aweomse Theme!",
   "version": "0.1.0"
 }
 ```
-<!-- .element: class="fragment" data-fragment-index="1" -->
-
 
 --
 
@@ -61,6 +91,7 @@ Take a look at Grunt website for a great index of popular plugins.
 - grunt-contrib-sass
 - grunt-contrib-cssmin
 - grunt-contrib-coffee
+
 --
 
 ### Use npm to install local grunt and plugins ###
@@ -73,6 +104,7 @@ npm install -D grunt-contrib-watch
 --
 
 ### Package.json ###
+
 ```json
 {
   "name": "My Aweomse Theme!",
@@ -89,19 +121,14 @@ npm install -D grunt-contrib-watch
 
 ### `Gruntfile.js` ###
 
-```coffeescript
-module.exports = (grunt) ->
-  'use strict'
-  grunt.initConfig({
-    package: grunt.file.readJSON 'package.json'
-
-  })
+```js
+module.exports = function(grunt){});
 ```
 --
 
 ### Begin
 
-```coffeescript
+```js
 module.exports = (grunt) ->
   'use strict'
   grunt.initConfig({
