@@ -160,3 +160,8 @@ body {
   border: none;
   box-shadow: none;
   max-height: 300px; }
+
+.reveal section img[src*="node-js"] {
+  padding: 2em;
+  max-width: 18em;
+  background-color: #000; }
