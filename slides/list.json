@@ -15,5 +15,6 @@
     "but-wait.md",
     "autoprefixer-task.md",
     "watch-for-the-win.md",
-    "watch-task.md"
+    "watch-task.md",
+    "cssmin-jshint-browserify-uglify.md"
 ]
