@@ -1,8 +1,8 @@
 ### Your First Grunt Project ###
 
 ```
-/sites/all/themes/my_awesome_theme
-|- my_awesome_theme.info
+/sites/all/themes/awesome_theme
+|- awesome_theme.info
 |- template.php
 |- templates
 |  |- page.tpl.php
