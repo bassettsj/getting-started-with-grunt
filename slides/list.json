@@ -19,5 +19,8 @@
     "cssmin-jshint-browserify-uglify.md",
     "cssmin-task.md",
     "jshint-task.md",
-    "browserify-task.md"
+    "browserify-task.md",
+    "level-up.md",
+    "grunt-load-tasks.md",
+    "what-about-gulp.md"
 ]
