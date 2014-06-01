@@ -13,5 +13,7 @@
     "gruntfile-js.md",
     "configure-tasks.md",
     "but-wait.md",
-    "autoprefixer-task.md"
+    "autoprefixer-task.md",
+    "watch-for-the-win.md",
+    "watch-task.md"
 ]
