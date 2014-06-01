@@ -6,20 +6,14 @@
 |- template.php
 |- templates
 |  |- page.tpl.php
-|  |- html.tpl.php
 |- scss
+|  |- library
+|      |- _variables.scss ...
 |  |- main.scss
 |- src
-|  |- main.js
+|  |- index.js
 |- img
-|  |-banner.png
-|- dist
-|  |- css
-|    |- main.css
-|  |- js
-|    |- main.js
-|  |- img
-|    |- banner.png
+|  |- banner.svg
 ```
 
 note:
