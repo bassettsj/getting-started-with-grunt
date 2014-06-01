@@ -62,3 +62,52 @@ grunt.initConfig({
 });
 
 ```
+
+note:
+
+Finding the Grunt plugin you want to use, I always quickly scroll to the examples and get roughly the task you need.
+
+--
+
+### Install, load, configure
+
+
+1. `npm install -D grunt-autoprefixer`
+2. configure task from the example
+
+```js
+...
+autoprefixer:{
+  theme: {
+    options:{
+      map: true
+    },
+    files:{
+      src: 'dist/css/**/*.css' // can leave the dest off
+    }
+
+  }
+}
+```
+
+--
+
+### Install, load, configure
+
+- `grunt.loadNpmTask('grunt-autoprefixer');`
+- Add to the default task
+- `$ grunt` compiled and prefixed -- oooh!
+
+```js
+grunt.registerTask(
+  'default',
+  'Compile SASS and autoprefix',
+  [
+    'sass:theme',
+    'autoprefixer:theme'
+  ]
+);
+```
+
+
+<span class="fa fa-money fa-badge" aria-hidden="true"></span>

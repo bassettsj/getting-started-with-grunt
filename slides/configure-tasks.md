@@ -1,5 +1,6 @@
 ## Configure Tasks
 
+
 ```js
 // 1. Use grunt and expose this functionality
 module.exports = function(grunt){
@@ -24,15 +25,23 @@ module.exports = function(grunt){
     sass: {
       // target
       theme:
+        // task options
+        options:{
+          // note* requires SASS >=3.3.0 `gem install sass --pre`
+          sourcemap: true
+        },
         // files
-        files: {
-          'dist/scss/main.css' : 'scss/main.scss'
-        }
+        files: [{
+          dest: 'dist/css/awesome-theme.css'
+          src: 'scss/main.scss'
+        }]
     }
   });
 };
+
 ```
 
+note:
 
 --
 

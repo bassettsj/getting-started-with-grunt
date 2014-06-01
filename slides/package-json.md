@@ -31,11 +31,21 @@ Nice utility to build the package.json
 --
 
 ### What is this look like
-
-Simplest version.
 ```json
 {
-  "name": "My Aweomse Theme!",
-  "version": "0.1.0"
+  "name": "awesome_theme",
+  "version": "0.0.0",
+  "description": "An awesome drupal theme",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "Drupal",
+    "theme",
+    "grunt"
+  ],
+  "author": "Steven Bassett <steven.j.bassett@gmail.com>",
+  "license": "BSD-2"
 }
 ```
