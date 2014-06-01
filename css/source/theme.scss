@@ -11,32 +11,52 @@
 @import "../../bower_components/reveal.js/css/theme/template/mixins";
 @import "../../bower_components/reveal.js/css/theme/template/settings";
 //
+@font-face {
+  font-family: DinNextRounded;
+  src:  url("../fonts/dinnextroundedltw01_bold-webfont.eot");
+  src:  url("../fonts/dinnextroundedltw01_bold-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/dinnextroundedltw01_bold-webfont.ttf") format("truetype"),
+        url("../fonts/dinnextroundedltw01_bold-webfont.woff") format("woff"),
+        url("../fonts/dinnextroundedltw01_bold-webfont.svg#din_next_rounded_lt_w01_bolRg") format("svg");
+        font-weight: 700;
+}
+
+@font-face {
+  font-family: DinNextRounded;
+  src:  url("../fonts/dinnextroundedltw01_medium-webfont.eot");
+  src:  url("../fonts/dinnextroundedltw01_medium-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/dinnextroundedltw01_medium-webfont.ttf") format("truetype"),
+        url("../fonts/dinnextroundedltw01_medium-webfont.woff") format("woff"),
+        url("../fonts/dinnextroundedltw01_medium-webfont.svg#din_next_rounded_lt_w01_medRg") format("svg");
+        font-weight: 500;
+}
+
+@font-face {
+  font-family: DinNextRounded;
+  src:  url("../fonts/dinnextroundedltw01_light-webfont.eot");
+  src:  url("../fonts/dinnextroundedltw01_light-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/dinnextroundedltw01_light-webfont.ttf") format("truetype"),
+        url("../fonts/dinnextroundedltw01_light-webfont.woff") format("woff"),
+        url("../fonts/dinnextroundedltw01_light-webfont.svg#din_next_rounded_lt_w01_ligRg") format("svg");
+        font-weight: 300;
+}
 
 $headingTextTransform: none; //---------------------------------------------
 
-// Include theme-specific fonts ----------------
-@font-face {
-        font-family: 'League Gothic';
-        src: url('../../lib/font/league_gothic-webfont.eot');
-        src: url('../../lib/font/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
-                 url('../../lib/font/league_gothic-webfont.woff') format('woff'),
-                 url('../../lib/font/league_gothic-webfont.ttf') format('truetype'),
-                 url('../../lib/font/league_gothic-webfont.svg#LeagueGothicRegular') format('svg');
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Lustria);
 
-        font-weight: normal;
-        font-style: normal;
-}
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 // ---------------------------------------------
 
 // Override theme settings ---------------------
-$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
+$heading1TextShadow: none;
 // Other options include e.g.
-$mainFont: 'Open Sans', sans-serif;
-// $linkColor: #ed1dff;
-// $linkColorHover: $linkColor;
-// $headingFont: 'Montserrat', Impact, sans-serif;
+$mainColor: #161616;
+$headingColor: #505050;
+$mainFont: 'Source Sans Pro','Helvetica Nue', 'Helvetica', sans-serif;
+$linkColor: #3f96d6;
+$linkColorHover: darken( $linkColor, 10%);
+$headingFont: 'DinNextRounded', 'Lustria', Impact, serif;
 // $headingTextShadow: none;
 // $headingLetterSpacing: -0.03em;
 // $headingTextTransform: none;
@@ -48,7 +68,7 @@ $mainFontSize: 36px;
 
 // Background generator ------------------------
 @mixin bodyBackground() {
-        @include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
+        @include radial-gradient( #f9f9f9, #FFFFFF );
 }
 // ---------------------------------------------
 
