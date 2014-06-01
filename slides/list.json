@@ -12,5 +12,6 @@
     "install-grunt-plugins.md",
     "gruntfile-js.md",
     "configure-tasks.md",
-    "but-wait.md"
+    "but-wait.md",
+    "autoprefixer-task.md"
 ]
