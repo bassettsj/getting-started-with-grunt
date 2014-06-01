@@ -16,5 +16,8 @@
     "autoprefixer-task.md",
     "watch-for-the-win.md",
     "watch-task.md",
-    "cssmin-jshint-browserify-uglify.md"
+    "cssmin-jshint-browserify-uglify.md",
+    "cssmin-task.md",
+    "jshint-task.md",
+    "browserify-task.md"
 ]
