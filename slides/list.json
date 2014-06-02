@@ -20,9 +20,9 @@
     "cssmin-task.md",
     "jshint-task.md",
     "browserify-task.md",
+    "uglify-task.md",
     "php-tools.md",
     "level-up.html",
     "grunt-load-tasks.md",
-    "what-about-gulp.md",
-    "uglify.md"
+    "what-about-gulp.md"
 ]
