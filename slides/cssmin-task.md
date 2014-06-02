@@ -17,7 +17,6 @@ cssmin:{
   }
 }
 ```
-<!-- element. class="fragment" data-index="0" -->
 
 note:
 

@@ -77,15 +77,12 @@ Finding the Grunt plugin you want to use, I always quickly scroll to the example
 
 ```js
 ...
-autoprefixer:{
+autoprefixer: {
   theme: {
-    options:{
+    options: {
       map: true
     },
-    files:{
-      src: 'dist/css/**/*.css' // can leave the dest off
-    }
-
+    src: 'dist/css/**/*.css' // can leave the dest off
   }
 }
 ```
