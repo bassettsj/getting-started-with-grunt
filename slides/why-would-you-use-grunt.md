@@ -14,7 +14,7 @@ These are what we would call tasks, and grunt is what is called a _task_ runner,
 
 ---
 
-### What does it do ###
+### What does it do? ###
 
 - SASS / LESS / CSS <!-- .element: class="fragment" data-fragment-index="1" -->
   - Compiled / Linted / Prefixed / Minified
@@ -22,6 +22,6 @@ These are what we would call tasks, and grunt is what is called a _task_ runner,
   - Linted / Unit Tested / Concatenated / Minified
 - Images / SVGS / Icon Fonts <!-- .element: class="fragment" data-fragment-index="3" -->
   - optimized  / sprited / base64 encoded
-- Million other possible thing... <!-- .element: class="fragment" data-fragment-index="4" -->
+- Million other possible things... <!-- .element: class="fragment" data-fragment-index="4" -->
 
 note:
