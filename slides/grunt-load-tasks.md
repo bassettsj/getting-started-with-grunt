@@ -1,45 +1,21 @@
-##  load-grunt-config
+## grunt-load-tasks
 
-You should probably do this!
+### Before
 
 ```js
-//Gruntfile.js
-module.exports = function(grunt){
-  'strict'
-  require("load-grunt-config")(grunt);
-};
-
-//grunt/sass.js
-module.exports = {
-  // target
-  theme:{
-    options:{
-      // note* requires SASS >=3.3.0 `gem install sass --pre`
-      sourcemap: true
-    },
-    // files
-    files: [{
-      dest: 'dist/css/awesome-theme.css'
-      src: 'scss/main.scss'
-    }]
-  }
-}
-
+grunt.loadNpmTasks('grunt-contrib-sass');
+grunt.loadNpmTasks('grunt-autoprefixer');
+grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-contrib-cssmin');
+grunt.loadNpmTasks('grunt-contrib-jshint');
+grunt.loadNpmTasks('grunt-browserify');
+grunt.loadNpmTasks('grunt-contrib-uglify');
+grunt.loadNpmTasks('grunt-contrib-clean');
+grunt.loadNpmTasks('grunt-phplint');
+grunt.loadNpmTasks('grunt-phpcs');
 ```
 
---
-
-### Works with YML, CoffeeScript and JS too!
-
-```yml
-dafault:
-  sass
-  autoprefixer
-  cssmin
-  jshint
-  browserify
-  uglify
-devel:
-  clean:dist
-  watch
+### After
+```js
+require('load-grunt-tasks')(grunt);
 ```

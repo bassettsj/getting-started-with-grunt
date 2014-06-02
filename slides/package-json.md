@@ -30,7 +30,8 @@ Nice utility to build the package.json
 
 --
 
-### What is this look like
+### package.json
+
 ```json
 {
   "name": "awesome_theme",

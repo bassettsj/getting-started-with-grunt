@@ -12,6 +12,23 @@ module.exports = function(grunt){
 ```
 note:
 
+--
+
+### Install SASS Task
+
+`$ npm install --save-dev grunt-contrib-sass`
+
+```json
+{
+  "name": "Aweomse Theme!",
+  "version": "0.0.0",
+  ...
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "0.7.3"
+  }
+}
+```
 
 --
 
@@ -24,17 +41,23 @@ module.exports = function(grunt){
     // task
     sass: {
       // target
-      theme:
-        // task options
-        options:{
+      theme: {
+        //Options
+        options: {
           // note* requires SASS >=3.3.0 `gem install sass --pre`
-          sourcemap: true
+          sourcemap: true,
+          loadPath: [
+            'bower_components',
+            '...'
+          ]
         },
         // files
         files: [{
-          dest: 'dist/css/awesome-theme.css'
+          dest: 'dist/css/awesome-theme.css',
           src: 'scss/main.scss'
+
         }]
+      }
     }
   });
 };

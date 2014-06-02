@@ -2,11 +2,12 @@
 
 - SASS
 - Auto-Prefixer
-- CSS-Min
+- CSSmin
 - JShint
-- Concatenate JS
-- Unit Tests
+- Browserify JS
 - Uglify JS
-- Optimize images
+- PHP lint
+- PHP Code Sniffer
+- Drush
 
 note:

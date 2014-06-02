@@ -21,7 +21,7 @@ grunt.loadNpmTasks('grunt-contrib-watch')
 
 ### Live Reload!?
 
-No mo refresh!
+No mo' refresh!
 
 ```js
 watch:{

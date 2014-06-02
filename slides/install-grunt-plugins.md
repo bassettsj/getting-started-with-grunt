@@ -14,10 +14,10 @@ note:
 
 --
 
-### Use npm to install local grunt and plugins ###
+### Use npm to install local grunt
 
 ```shell
-npm install --save-dev grunt grunt-contrib-sass
+npm install --save-dev grunt
 
 ```
 #### Protip:
@@ -34,8 +34,7 @@ npm install --save-dev grunt grunt-contrib-sass
   "version": "0.0.0",
   ...
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-contrib-sass": "0.7.3"
+    "grunt": "~0.4.5"
   }
 }
 ```
