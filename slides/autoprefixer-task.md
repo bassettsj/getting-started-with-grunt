@@ -1,6 +1,6 @@
 ##  Autoprefixer Task
 
-<iframe src="http://lmgtfy.com/?q=grunt+autoprefixer"></iframe>
+![screenshot of the google search results for grunt autoprefixer](img/google-grunt-autoprefixer.png)
 
 
 --

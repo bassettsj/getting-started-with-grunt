@@ -11,30 +11,15 @@ Many of the same principles carry over, and Grunt isn't dead. <!-- .element: cla
 
 ### Gulp example
 
-```js
+```
 var gulp = require('gulp');
-var uglify = require('gulp-uglify');
-var minifyHTML = require('gulp-minify-html');
 var sass = require('gulp-sass');
 
-// Here's the tasks
+// Here's a simple
 gulp.task('build', function(){
-  var dist = 'dist/'
-    , dirPublic = 'public/'
-    , distStylesheets = dist + dirPublic + 'stylesheets/'
-    , distJavascripts = dist + dirPublic + 'javascripts/';
-
   gulp.src('public/stylesheets/scss/*.scss')
     .pipe(sass())
-    .pipe(gulp.dest(distStylesheets));
-
-  gulp.src('*.html')
-    .pipe(minifyHTML())
-    .pipe(gulp.dest(dist));
-
-  gulp.src('public/javascripts/*.js')
-    .pipe(uglify())
-    .pipe(gulp.dest(distJavascripts));
+    .pipe(gulp.dest('dist/css/'));
 });
 
 ```

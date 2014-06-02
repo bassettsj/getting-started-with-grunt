@@ -39,7 +39,7 @@ Aborted due to warnings.
 
 --
 
-### PHPunit
+### PHP Unit
 
 ```js
 phpunit: {
