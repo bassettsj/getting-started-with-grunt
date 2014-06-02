@@ -1,10 +1,9 @@
 ## Browserify Task
 
 
-npm install -D grunt-browserify browserify-shim
+`$ npm install -D grunt-browserify browserify-shim`
 
 ```js
-...
 browserify: {
   themejs: {
     files:  {
@@ -29,10 +28,3 @@ browserify: {
   }
 }
 ```
-
-
-note:
-theme:
-    files: 'dist/js/bookshare.pkg.js' : [
-      'coffee/index.coffee'
-    ]

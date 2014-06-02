@@ -8,7 +8,8 @@ module.exports = function(grunt){
   'strict'
   require("load-grunt-config")(grunt);
 };
-
+```
+```js
 //grunt/sass.js
 module.exports = {
   // target
