@@ -15,11 +15,12 @@ Many of the same principles carry over, and Grunt isn't dead. <!-- .element: cla
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 
-// Here's a simple
+// Here's a simple sass task
 gulp.task('build', function(){
   gulp.src('public/stylesheets/scss/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('dist/css/'));
+    // streaming the results to each task
 });
 
 ```

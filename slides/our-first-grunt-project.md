@@ -16,10 +16,12 @@
 |  |- banner.svg
 ```
 
+Sample Project: [bassettsj/awesome_theme](https://github.com/bassettsj/awesome_theme)
+
 note:
 
 Simple theme structure
-Tasks might include concatinating our scripts together
+Tasks might include concatenating our scripts together
 Linting our Javascript
 Running unit tests
 Compiling out SASS

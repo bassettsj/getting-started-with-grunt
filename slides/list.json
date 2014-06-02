@@ -3,6 +3,7 @@
     "about-me.md",
     "what-is-grunt.md",
     "why-would-you-use-grunt.md",
+    "common-misconceptions.md",
     "our-first-grunt-project.md",
     "tasks-for-our-theme.md",
     "steps-to-get-started.md",
@@ -13,6 +14,7 @@
     "gruntfile-js.md",
     "configure-tasks.md",
     "but-wait.md",
+    "autoprefixer.md",
     "autoprefixer-task.md",
     "watch-for-the-win.md",
     "watch-task.md",
@@ -24,5 +26,11 @@
     "php-tools.md",
     "level-up.html",
     "grunt-load-tasks.md",
-    "what-about-gulp.md"
+    "grunt-load-config.md",
+    "grunt-notify.md",
+    "grunt-newer.md",
+    "grunt-concurrent.md",
+    "time-grunt.md",
+    "what-about-gulp.md",
+    "thank-you-questions.md"
 ]
