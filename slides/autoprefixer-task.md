@@ -5,6 +5,12 @@
 
 --
 
+### Grunt Plugin Directory
+
+![gruntjs.com/plugins](http://gruntjs.com/plugins)
+
+--
+
 ### Check the docs, look for the example
 
 
