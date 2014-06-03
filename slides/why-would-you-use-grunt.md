@@ -18,7 +18,6 @@ Grunt provides a way for us to help make doing the right thing easy through auto
   - tools like linting and
 - and most importantly it holds the instructions for all these tasks right in our projects repository so starting with a new team is easy.
 
----
 
 ### What does it do? ###
 
