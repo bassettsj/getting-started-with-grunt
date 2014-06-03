@@ -97,6 +97,16 @@ module.exports = (grunt) ->
           remote: 'git@github.com:bassettsj/getting-started-with-grunt.git'
           branch: 'gh-pages'
 
+    imagemin:
+      dist:
+        files:[{
+          cwd: 'img-src/'
+          dest: 'img'
+          expand: true
+          flatten: true
+          src: '**/*.{png,jpg,svg}'
+        }]
+
 
 
   # Load all grunt tasks.
@@ -136,7 +146,8 @@ module.exports = (grunt) ->
     'Save presentation files to *dist* directory.', [
       'test'
       'sass'
-      'buildIndex'
+      'buildIndex',
+      'newer:imagemin'
       'copy'
     ]
 
