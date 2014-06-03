@@ -7,7 +7,9 @@
 
 ### Grunt Plugin Directory
 
-![gruntjs.com/plugins](http://gruntjs.com/plugins)
+![Table showing gruntplugins with a description](img/grunt-plugin-directory.png)
+
+[gruntjs.com/plugins](http://gruntjs.com/plugins)
 
 --
 
