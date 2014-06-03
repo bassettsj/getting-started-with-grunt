@@ -28,5 +28,3 @@ Grunt provides a way for us to help make doing the right thing easy through auto
 - Images / SVGS / Icon Fonts <!-- .element: class="fragment" data-fragment-index="3" -->
   - optimized  / sprited / base64 encoded
 - Million other possible things... <!-- .element: class="fragment" data-fragment-index="4" -->
-
-note:
