@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Lustria);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @font-face {
   font-family: DinNextRounded;
   src: url("../fonts/dinnextroundedltw01_bold-webfont.eot");
@@ -55,7 +55,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #505050;
-  font-family: "DinNextRounded", "Lustria", Impact, serif;
+  font-family: "DinNextRounded", "Helvetica Nue", Impact, serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: none;

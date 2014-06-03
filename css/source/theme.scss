@@ -43,7 +43,7 @@
 
 $headingTextTransform: none; //---------------------------------------------
 
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Lustria);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 
 // ---------------------------------------------
@@ -56,7 +56,7 @@ $headingColor: #505050;
 $mainFont: 'Source Sans Pro','Helvetica Nue', 'Helvetica', sans-serif;
 $linkColor: #3f96d6;
 $linkColorHover: darken( $linkColor, 10%);
-$headingFont: 'DinNextRounded', 'Lustria', Impact, serif;
+$headingFont: 'DinNextRounded', 'Helvetica Nue', Impact, serif;
 // $headingTextShadow: none;
 // $headingLetterSpacing: -0.03em;
 // $headingTextTransform: none;
