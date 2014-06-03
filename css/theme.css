@@ -155,11 +155,14 @@ body {
 .reveal .slide-number {
   color: #3f96d6; }
 
-.reveal section:first-child img[src*="grunt-logo"] {
+.reveal section:first-child img[src*="grunt-logo"],
+.reveal section:first-child img[src*="drupal-logo"] {
   background: none;
   border: none;
   box-shadow: none;
-  max-height: 300px; }
+  max-height: 7em; }
+.reveal section:first-child img[src*="drupal-logo"] {
+  margin-right: 2em; }
 
 .reveal section img[src*="node-js"] {
   padding: 2em;

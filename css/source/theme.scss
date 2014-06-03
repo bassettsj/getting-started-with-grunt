@@ -80,11 +80,18 @@ $mainFontSize: 36px;
 // for further explanations on how reveal.js themes work.
 
 
-.reveal section:first-child img[src*="grunt-logo"]{
-  background: none;
-  border: none;
-  box-shadow: none;
-  max-height: 300px;
+.reveal section:first-child{
+  img[src*="grunt-logo"],
+  img[src*="drupal-logo"]{
+    background: none;
+    border: none;
+    box-shadow: none;
+    max-height: 7em;
+  }
+  img[src*="drupal-logo"]{
+    margin-right: 2em;
+  }
+
 }
 
 .reveal section img[src*="node-js"]{
@@ -95,5 +102,5 @@ $mainFontSize: 36px;
 
 iframe[src="http://lmgtfy.com/?q=grunt+autoprefixer"]{
   width: 95%;
-  height: 400px; 
+  height: 400px;
 }
