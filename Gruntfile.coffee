@@ -108,7 +108,6 @@ module.exports = (grunt) ->
         }]
 
 
-
   # Load all grunt tasks.
   require('load-grunt-tasks')(grunt)
 
@@ -138,6 +137,8 @@ module.exports = (grunt) ->
     'Run presentation locally and start watch process (living document).', [
       'buildIndex'
       'sass'
+      'newer:imagemin'
+      'newer:svgmin'
       'connect:livereload'
       'watch'
     ]
@@ -146,8 +147,9 @@ module.exports = (grunt) ->
     'Save presentation files to *dist* directory.', [
       'test'
       'sass'
-      'buildIndex',
+      'buildIndex'
       'newer:imagemin'
+      'newer:svgmin'
       'copy'
     ]
 
