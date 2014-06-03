@@ -18,11 +18,13 @@
     "autoprefixer-task.md",
     "watch-for-the-win.md",
     "watch-task.md",
-    "cssmin-jshint-browserify-uglify.md",
-    "cssmin-task.md",
-    "jshint-task.md",
-    "browserify-task.md",
-    "uglify-task.md",
+    [
+      "cssmin-jshint-browserify-uglify.md",
+      "cssmin-task.md",
+      "jshint-task.md",
+      "browserify-task.md",
+      "uglify-task.md"
+    ],
     "php-tools.md",
     "level-up.html",
     "grunt-load-tasks.md",
