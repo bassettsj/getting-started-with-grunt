@@ -1,6 +1,7 @@
 # Getting started with Grunt #
 #### for better frontend ops
 
+![The drupal logo of a drop with eyes](img/drupal-logo.svg)
 ![The grunt logo of a cartoon boar](img/grunt-logo.svg)
 
 note:

@@ -10,7 +10,13 @@
 
 note:
 
-These are what we would call tasks, and grunt is what is called a _task_ runner, so these are exactly things we should be doing anyways.
+Grunt provides a way for us to help make doing the right thing easy through automation.
+
+- We can easily work in small chunks of code
+  - while still compining and processing it
+- Provides q/a tools for the code we produce.
+  - tools like linting and
+- and most importantly it holds the instructions for all these tasks right in our projects repository so starting with a new team is easy.
 
 ---
 
