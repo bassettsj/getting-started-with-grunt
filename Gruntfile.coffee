@@ -138,7 +138,6 @@ module.exports = (grunt) ->
       'buildIndex'
       'sass'
       'newer:imagemin'
-      'newer:svgmin'
       'connect:livereload'
       'watch'
     ]
@@ -149,7 +148,6 @@ module.exports = (grunt) ->
       'sass'
       'buildIndex'
       'newer:imagemin'
-      'newer:svgmin'
       'copy'
     ]
 
