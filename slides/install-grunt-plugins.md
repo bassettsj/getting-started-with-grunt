@@ -1,16 +1,17 @@
 ## Install Grunt Plugins
 
-Take a look at Grunt website for a great index of popular plugins.
-
 - grunt-contrib-uglify
 - grunt-contrib-jshint
 - grunt-contrib-qunit
 - grunt-contrib-watch
-- .... so many! <!-- .element: class="fragment" data-index="0" -->
+
+[Grunt Plugins: gruntjs.com/plguins](http://gruntjs.com/plguins)
 
 note:
 
+Contrib means it is maintianed by the core grunt team.
 
+But there are a plenty to checkout.
 
 --
 
@@ -20,7 +21,10 @@ note:
 npm install --save-dev grunt
 
 ```
-#### Protip:
+
+note:
+
+Protip:
 `-D` flag for saving to save for
 
 
