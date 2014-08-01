@@ -1,12 +1,14 @@
 ##  But wait...
 
-This is no different than just running...
-
 ```sh
 $ sass scss/main.scss css/main.css
 ```
 
---
+note:
+
+
+This is no different than just running...
+
 
 ### The power comes from multiple tasks.
 

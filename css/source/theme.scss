@@ -94,6 +94,12 @@ $mainFontSize: 36px;
 
 }
 
+.reveal section img[alt="Checklist"] {
+  border: none;
+  width: 12em;
+  box-shadow: none;
+}
+
 .reveal section img[src*="node-js"]{
   padding: 2em;
   max-width: 18em;

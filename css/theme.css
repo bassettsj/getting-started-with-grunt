@@ -164,6 +164,11 @@ body {
 .reveal section:first-child img[src*="drupal-logo"] {
   margin-right: 2em; }
 
+.reveal section img[alt="Checklist"] {
+  border: none;
+  width: 12em;
+  box-shadow: none; }
+
 .reveal section img[src*="node-js"] {
   padding: 2em;
   max-width: 18em;

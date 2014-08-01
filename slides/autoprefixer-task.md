@@ -101,7 +101,7 @@ autoprefixer: {
 
 - `grunt.loadNpmTask('grunt-autoprefixer');`
 - Add to the default task
-- `$ grunt` compiled and prefixed -- oooh!
+
 
 ```js
 grunt.registerTask(
@@ -114,5 +114,4 @@ grunt.registerTask(
 );
 ```
 
-
-<span class="fa fa-money fa-badge" aria-hidden="true"></span>
+note:
