@@ -3,4 +3,7 @@
 ```shell
 $ npm install grunt-cli -g
 ```
-> `-g` Makes grunt CLI Global!
+
+note:
+
+-g for the package to be available on your path.

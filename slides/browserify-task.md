@@ -7,12 +7,13 @@
 browserify: {
   themejs: {
     files:  {
-      dest: 'dist/js/awesome-theme.pkg.js',
-      src: 'src/index.js'
+      dest: 'dist/js/awesome-theme.pkg.js', // The packaged modules ready to be used.
+      src: 'src/index.js' // The browserify source index file to compile from.
     }
   }
 }
 ```
+Config within our package.json
 
 ```json
 {
