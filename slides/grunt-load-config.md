@@ -4,6 +4,7 @@
 //Gruntfile.js
 module.exports = function(grunt){
   'strict'
+  // Now this will load your tasks, config and alias tasks.
   require("load-grunt-config")(grunt);
 };
 ```
@@ -29,7 +30,7 @@ module.exports = {
 note:
 You should probably do this!
 
-
+Helps keep it more managable.
 
 --
 
