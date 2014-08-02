@@ -12,24 +12,6 @@ note:
 
 --
 
-### `npm init` CLI Utility
-
-```sh
-$ cd my-awesome-theme
-$ npm init
-
-This utility will walk you through creating a package.json file.
-It only covers the most common items, and tries to guess sane defaults.
-...
-Press ^C at any time to quit.
-name: (my-awesome-theme)
-```
-
-note:
-Nice utility to build the package.json
-
---
-
 ### package.json
 
 ```json
@@ -50,3 +32,22 @@ Nice utility to build the package.json
   "license": "BSD-2"
 }
 ```
+
+
+--
+
+### `npm init` CLI Utility
+
+```sh
+$ cd my-awesome-theme
+$ npm init
+
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sane defaults.
+...
+Press ^C at any time to quit.
+name: (my-awesome-theme)
+```
+
+note:
+Nice utility to build the package.json
