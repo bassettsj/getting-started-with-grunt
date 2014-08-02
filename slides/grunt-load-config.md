@@ -1,7 +1,5 @@
 ##  load-grunt-config
 
-You should probably do this!
-
 ```js
 //Gruntfile.js
 module.exports = function(grunt){
@@ -11,11 +9,11 @@ module.exports = function(grunt){
 ```
 ```js
 //grunt/sass.js
+// This is now where all your task config lives, in small digestable files.
 module.exports = {
   // target
   theme:{
     options:{
-      // note* requires SASS >=3.3.0 `gem install sass --pre`
       sourcemap: true
     },
     // files
@@ -27,6 +25,11 @@ module.exports = {
 }
 
 ```
+
+note:
+You should probably do this!
+
+
 
 --
 
